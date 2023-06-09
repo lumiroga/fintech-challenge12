@@ -36,30 +36,138 @@ Given the nature of the data (imbalanced between healthy and unhealthy loans), t
 * Machine Learning Model 1: Logistics Regression with Standard Data
   * Model Accuracy: 95.20 % 
   * Results: 
-|                    | **precision** | **recall** | **f1-score** | **support** |
-|--------------------|---------------|------------|--------------|-------------|
-| **Healthy Loan**   | 1.00          | 0.99       | 1.00         | 18765       |
-| **Unhealthy Loan** | 0.85          | 0.91       | 0.88         | 619         |
-|                    |               |            |              |             |
-| accuracy           |               |            | 0.99         | 19384       |
-| macro avg          | 0.92          | 0.95       | 0.94         | 19384       |
-| weighted avg       | 0.99          | 0.99       | 0.99         | 19384       |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**precision**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**recall**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**f1-score**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**support**</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">**Healthy Loan**</span></td>
+    <td class="tg-0pky">1.00</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">1.00</td>
+    <td class="tg-0pky">18765</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">**Unhealthy Loan**</span></td>
+    <td class="tg-0pky">0.85</td>
+    <td class="tg-0pky">0.91</td>
+    <td class="tg-0pky">0.88</td>
+    <td class="tg-0pky">619</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">accuracy</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">macro avg</td>
+    <td class="tg-0pky">0.92</td>
+    <td class="tg-0pky">0.95</td>
+    <td class="tg-0pky">0.94</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">weighted avg</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+</tbody>
+</table>
 
   * Precision is 100% for Healthy loans and 85% for Unhealthy loans
   * Recall is 99% for Healthy Loans and 91% for Unhealthy loans
 
 
 * Machine Learning Model 2: Given the nature of the model data is randomly oversampled to balance the types of loans, this is called oversampling. The same Logistic Regression is then applied. The following results were obtained.
-  * Model Accuracy: 99.37%
-  * Results:
-|                    | **precision** | **recall** | **f1-score** | **support** |
-|--------------------|---------------|------------|--------------|-------------|
-| **Healthy Loan**   | 1.00          | 0.99       | 1.00         | 18765       |
-| **Unhealthy Loan** | 0.84          | 0.99       | 0.91         | 619         |
-|                    |               |            |              |             |
-| accuracy           |               |            | 0.99         | 19384       |
-| macro avg          | 0.92          | 0.99       | 0.95         | 19384       |
-| weighted avg       | 0.99          | 0.99       | 0.99         | 19384       |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**precision**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**recall**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**f1-score**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">**support**</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">**Healthy Loan**</span></td>
+    <td class="tg-0pky">1.00</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">1.00</td>
+    <td class="tg-0pky">18765</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">**Unhealthy Loan**</span></td>
+    <td class="tg-0pky">0.84</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.91</td>
+    <td class="tg-0pky">619</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">accuracy</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">macro avg</td>
+    <td class="tg-0pky">0.92</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.95</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">weighted avg</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">0.99</td>
+    <td class="tg-0pky">19384</td>
+  </tr>
+</tbody>
+</table>
 
   * Precision is 100% for Healthy loans and 84% for Unhealthy loans
   * Recall is 99% for Healthy Loans and 99% for Unhealthy loans
