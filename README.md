@@ -62,22 +62,22 @@ Given the nature of the data (imbalanced between healthy and unhealthy loans), t
 <thead>
   <tr>
     <th class="tg-0pky"></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**precision**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**recall**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**f1-score**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**support**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>precision</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>recall</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>f1-score</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>support</b></span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:bold">**Healthy Loan**</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold"><b>Healthy Loan</b></span></td>
     <td class="tg-0pky">1.00</td>
     <td class="tg-0pky">0.99</td>
     <td class="tg-0pky">1.00</td>
     <td class="tg-0pky">18765</td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:bold">**Unhealthy Loan**</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold"><b>Unhealthy Loan</b></span></td>
     <td class="tg-0pky">0.85</td>
     <td class="tg-0pky">0.91</td>
     <td class="tg-0pky">0.88</td>
@@ -131,22 +131,22 @@ Given the nature of the data (imbalanced between healthy and unhealthy loans), t
 <thead>
   <tr>
     <th class="tg-0pky"></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**precision**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**recall**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**f1-score**</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">**support**</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>precision</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>recall</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>f1-score</b></span></th>
+    <th class="tg-0pky"><span style="font-weight:bold"><b>support</b></span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:bold">**Healthy Loan**</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold"><b>Healthy Loan</b></span></td>
     <td class="tg-0pky">1.00</td>
     <td class="tg-0pky">0.99</td>
     <td class="tg-0pky">1.00</td>
     <td class="tg-0pky">18765</td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:bold">**Unhealthy Loan**</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold"><b>Unhealthy Loan</b></span></td>
     <td class="tg-0pky">0.84</td>
     <td class="tg-0pky">0.99</td>
     <td class="tg-0pky">0.91</td>
