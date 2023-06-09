@@ -208,7 +208,7 @@ For machine learning performance reporting
 
 
 ### Clone repository`
-`git clone https://github.com/lumiroga/Fintech_Challenge12.git`
+`git clone https://github.com/lumiroga/fintech-challenge12.git`
 ---
 
 ## Usage
@@ -217,7 +217,7 @@ Open the terminal
 
 Go to solution folder in your local computer
 
-`cd ./Fintech_Challenge12`
+`cd ./fintech-challenge12`
 
 `jupyter credit_risk_resampling.ipynb`
 
