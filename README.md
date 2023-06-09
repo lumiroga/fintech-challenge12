@@ -10,7 +10,7 @@ The data used is a set of Historic Loan information and whether the loan was hea
 The source data is in the following file: 
 * [Lending Data](./Resources/lending_data.csv)
 
---
+---
 
 # Results report:
 
@@ -180,7 +180,7 @@ The oversampled model should be the model to use for our business necessity.
 
 
 
---
+---
 
 ## Technologies
 
@@ -207,7 +207,7 @@ For machine learning performance reporting
 ---
 
 
-### Clone repository`
+### Clone repository
 ```bash
 git clone https://github.com/lumiroga/fintech-challenge12.git
 ```
@@ -220,7 +220,7 @@ Open the terminal
 Go to solution folder in your local computer
 
 ```bash
-cd ./fintech-challenge12`
+cd ./fintech-challenge12
 jupyter credit_risk_resampling.ipynb
 ```
 
